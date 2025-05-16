@@ -1,6 +1,24 @@
 
 1. Jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
+
 2. You can write JS inside JSX between {} These Curly braces. 
+
 3. Javascript variable should be called only after declaring.
+
 4.Cross Site Scrypting(XSS) is the Attack which is done by using the feature that jsx allow any javascript code to be 
 executed inside the curly braces.
+
+5.React Components can be rendered through the <Component /> or <Component></Component>
+
+6.React Component can also be called by {componentName()} or <componentName /> .But this wont work in render.In render 
+you have to do only <componentName />
+
+7.If you see in browser the css and app filee are named differently like namaste_react[Hash].css or js .The parcel
+do this to trick the browser into thinking that this files is new ,so reload it .
+therefore older version may not stick to it.
+
+8.dsiplay:flex chnges the default axis (vertical ) to horizontal .If parent header set to dsiplay :flex
+then its child will be horizontal [nav-items and logo]
+
+9.In in-line css We generally style with JavaScript Object.
+

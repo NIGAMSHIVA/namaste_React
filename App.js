@@ -1,31 +1,64 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Heading = 
-  
-   <p>Hello world !</p>;
-;
+//Header
+// logo
+// nav items
+// body
+//Restaurant container
+//res cards
+// footer
+// copyright
+//links
+// address
+//contact
 
-const head1 = <h1>
-  {Heading}
-  Hi guys
-</h1>
-
-// jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
-// You can write JS inside JSX between {} These Curly braces. Cross Site Scrypting.
-// Javascript variable should be called only after declaring 
-
-const HeadingComponent = () => {
+const RestaurantCard = () => {
   return (
-    <>
-      {head1 }
-      <div id="container">
-        <h1>Hello world From Components!</h1>
+    <div className="resCard">
+<h3>Meghna Foods</h3>
+  </div>
+  )
+}
+
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="logo">
+        <img className="logo_Image" src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png" />
       </div>
-    </>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div>
+      <div className="searchBar">Search</div>
+      <RestaurantCard />
+    </div>
+  )
+}
+
+
+
+const Applayout = () => {
+  return (
+    <div className="App">
+      <Header />
+      <Body />
+    </div>
   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<Applayout />);
