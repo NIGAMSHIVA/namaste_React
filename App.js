@@ -1,17 +1,31 @@
-const heading = React.createElement(
-  "div",
-  { id: "Parent" },
-  React.createElement(
-    "div",
-    { id: "child" },
-    [React.createElement("h1", {}, "I am an h1 Tag"),React.createElement("h2",{},"I am an h2 tag")]
-  )
-);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-console.log(heading);
+const Heading = 
+  
+   <p>Hello world !</p>;
+;
+
+const head1 = <h1>
+  {Heading}
+  Hi guys
+</h1>
+
+// jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
+// You can write JS inside JSX between {} These Curly braces. Cross Site Scrypting.
+// Javascript variable should be called only after declaring 
+
+const HeadingComponent = () => {
+  return (
+    <>
+      {head1 }
+      <div id="container">
+        <h1>Hello world From Components!</h1>
+      </div>
+    </>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
-
-
+root.render(<HeadingComponent />);

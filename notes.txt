@@ -1,0 +1,6 @@
+
+1. Jsx should return only one parent element If there Are multiple child Wrap them inside one parent.
+2. You can write JS inside JSX between {} These Curly braces. 
+3. Javascript variable should be called only after declaring.
+4.Cross Site Scrypting(XSS) is the Attack which is done by using the feature that jsx allow any javascript code to be 
+executed inside the curly braces.
