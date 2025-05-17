@@ -22,3 +22,11 @@ then its child will be horizontal [nav-items and logo]
 
 9.In in-line css We generally style with JavaScript Object.
 
+10.props are simple the are the data sent from the parent to the child component.Ther are similar to the argument to the
+JS functions.
+
+11.Config Driven UI-Config is data,data in handling the UI.Instead of writing 1000 restaurant in the UI .Do it in Data side and
+and just do the map in the UI.Important example-> In food apps like Swiggy You see different offers in kolkata & diffeent in Kanpur.If the UI was not config Driven
+then it would be the seperate app for seperate city.Thats why Config Driven UI is Important.
+
+

@@ -57,18 +57,33 @@ const Header = () => {
 
 const Body = () => {
   return (
-    <div className="res-container">
-      <div className="searchBar">Search</div>
+    <>
+          <div className="searchBar">Search</div>
+
+    < div className="res-container">
+      
+        <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+     
+     
     
-    </div>
+      </div>
+      </>
   );
 };
 
