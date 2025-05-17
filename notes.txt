@@ -29,4 +29,11 @@ JS functions.
 and just do the map in the UI.Important example-> In food apps like Swiggy You see different offers in kolkata & diffeent in Kanpur.If the UI was not config Driven
 then it would be the seperate app for seperate city.Thats why Config Driven UI is Important.
 
+12.API-Application Programming Interface ,APIs are usually hosted on the backend/server, not written in the frontend.Frontend Request the API call and get the data.
+It some times sends the data also(POST).Will discuss about this later.
+
+13.
+
+
+
 
