@@ -21,17 +21,37 @@
     padding: 10px;
     margin: 10px;
 
-
 }
 .resCard{
-    height: 300px;
+    height: 325px;
     width: 200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #f0f0f0;
-    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.resCard:hover{
+    cursor: pointer;
+    border: 1px solid black;
 }
 .searchBar{
     padding: 10px;
 }
+
+.res-image{
+    width: 190px;
+    height: 155px;
+    padding: 5px;
+}
+.res-name{
+text-align: center;}
+
+.res-container{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 
