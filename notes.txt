@@ -32,7 +32,22 @@ then it would be the seperate app for seperate city.Thats why Config Driven UI i
 12.API-Application Programming Interface ,APIs are usually hosted on the backend/server, not written in the frontend.Frontend Request the API call and get the data.
 It some times sends the data also(POST).Will discuss about this later.
 
-13.
+
+
+14.Cloudinary Image ->Cloud based service Which help to get image online via CDN links and
+Transformation in the image from the URL can also be done using URL.
+
+15.[
+  { "card": {...} },   // ✅ Valid object
+  { "card": {...} },   // ✅ Valid object
+]
+This is the valid syntax of objects inside the Array
+
+13.Object Destructuring-Read Something more about It I am not good in it.It is Important Dicuss with Rishu bhaiya Also
+
+14. when you comment out the height, the card automatically adjusts based on its content — this is the default and expected behavior in CSS: height grows as per content.
+
+
 
 
 
