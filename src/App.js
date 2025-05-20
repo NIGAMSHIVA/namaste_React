@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import {Header} from "./components/Header.js"
+
 const RestaurantCard = ({ resDataKey }) => {
   const resKey = resDataKey?.card?.card?.info;
   const {avgRating,cuisines,costForTwo} = resDataKey?.card?.card?.info;
@@ -1294,46 +1296,26 @@ const resDataOBJ = [
 ]
 
 
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo">
-        <img
-          className="logo_Image"
-          src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"
-        />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
 const Body = () => {
   return (
     <>
       <div className="searchBar">Search</div>
 
       <div className="res-container">
-        <RestaurantCard resDataKey={resDataOBJ[0]} />
-        <RestaurantCard resDataKey={resDataOBJ[1]} />
-        <RestaurantCard resDataKey={resDataOBJ[2]} />
-        <RestaurantCard resDataKey={resDataOBJ[3]} />
-        <RestaurantCard resDataKey={resDataOBJ[4]} />
-        <RestaurantCard resDataKey={resDataOBJ[5]} />
-        <RestaurantCard resDataKey={resDataOBJ[6]} />
-        <RestaurantCard resDataKey={resDataOBJ[7]} />
-        <RestaurantCard resDataKey={resDataOBJ[8]} />
-        <RestaurantCard resDataKey={resDataOBJ[9]} />
-        <RestaurantCard resDataKey={resDataOBJ[10]} />
-        <RestaurantCard resDataKey={resDataOBJ[11]} />
-        <RestaurantCard resDataKey={resDataOBJ[12]} />
+
+        {
+          resDataOBJ.map((uniq, index) => {
+            return(
+
+              <RestaurantCard
+                resDataKey={uniq}
+                key={uniq?.card?.card?.info.id}
+                
+              />
+
+            )
+          })
+        }
         
       </div>
      

@@ -43,9 +43,25 @@ Transformation in the image from the URL can also be done using URL.
 ]
 This is the valid syntax of objects inside the Array
 
-13.Object Destructuring-Read Something more about It I am not good in it.It is Important Dicuss with Rishu bhaiya Also
+13.Object Destructuring-Read Something more about It I am not good in it.It is Important Dicuss with 
+Rishu bhaiya Also
 
-14. when you comment out the height, the card automatically adjusts based on its content — this is the default and expected behavior in CSS: height grows as per content.
+14. when you comment out the height, the card automatically adjusts based on its content — this is the default 
+and expected behavior in CSS: height grows as per content.
+
+15.Always have key in the React component rendering because if new  compoenent added react will re-render
+every element ,but if we have unique key it will render only the new one.
+Bad practise is to use index as key because if the list is order and new element is added all the order change and 
+react will think every element is changed so it will re render all the elements.Ue ID as key is a good practise.
+
+16.Ask About map and destructuring with Rishu Bhaiya.
+
+17.Every code in react can be written in HTML/CSS/Javascript wring and using React kust make developer experience easy
+and do the optimizations also.
+
+
+
+
 
 
 
