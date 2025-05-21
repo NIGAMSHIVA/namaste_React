@@ -1,10 +1,11 @@
+import {CDN_Logo} from "../utils/constant"
 export const Header = () => {
   return (
     <div className="header">
       <div className="logo">
         <img
           className="logo_Image"
-          src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"
+          src={CDN_Logo}
         />
       </div>
       <div className="nav-items">

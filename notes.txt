@@ -59,6 +59,7 @@ react will think every element is changed so it will re render all the elements.
 17.Every code in react can be written in HTML/CSS/Javascript wring and using React kust make developer experience easy
 and do the optimizations also.
 
+18.useState variable should be defined inside the component,as we do in java variable are initialized inside the functions.
 
 
 
